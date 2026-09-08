@@ -3,12 +3,12 @@
 Plugin Name: Add Custom Messages Anywhere in WooCommerce
 Plugin URI: https://wordpress.org/plugins/info-blocks-for-woocommerce/
 Description: Add custom messages anywhere in WooCommerce. Beautifully.
-Version: 2.0.2
+Version: 2.0.3
 Author: Algoritmika Ltd
 Author URI: https://profiles.wordpress.org/algoritmika/
 Text Domain: info-blocks-for-woocommerce
 Domain Path: /langs
-WC tested up to: 9.8
+WC tested up to: 11.1
 Requires Plugins: woocommerce
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -36,7 +36,7 @@ if ( 'info-blocks-for-woocommerce.php' === basename( __FILE__ ) ) {
 	}
 }
 
-defined( 'ALG_WC_INFO_BLOCKS_VERSION' ) || define( 'ALG_WC_INFO_BLOCKS_VERSION', '2.0.2' );
+defined( 'ALG_WC_INFO_BLOCKS_VERSION' ) || define( 'ALG_WC_INFO_BLOCKS_VERSION', '2.0.3' );
 
 defined( 'ALG_WC_INFO_BLOCKS_FILE' ) || define( 'ALG_WC_INFO_BLOCKS_FILE', __FILE__ );
 

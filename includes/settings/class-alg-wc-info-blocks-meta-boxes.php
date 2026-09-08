@@ -2,7 +2,7 @@
 /**
  * Add Custom Messages Anywhere in WooCommerce - Meta Boxes Class
  *
- * @version 2.0.0
+ * @version 2.0.3
  * @since   1.0.0
  *
  * @author  Algoritmika Ltd
@@ -78,9 +78,30 @@ class Alg_WC_Info_Blocks_Meta_Boxes {
 	}
 
 	/**
+	 * get_user_role_options.
+	 *
+	 * @version 2.0.3
+	 * @since   2.0.3
+	 */
+	function get_user_role_options( $current_user_roles ) {
+		$result = array_merge(
+			array( 'alg_wc_ib_guest' => __( 'Guest', 'info-blocks-for-woocommerce' ) ),
+			wp_roles()->get_names()
+		);
+		if ( ! empty( $current_user_roles ) ) {
+			foreach ( $current_user_roles as $current_user_role ) {
+				if ( ! isset( $result[ $current_user_role ] ) ) {
+					$result[ $current_user_role ] = $current_user_role;
+				}
+			}
+		}
+		return $result;
+	}
+
+	/**
 	 * get_options.
 	 *
-	 * @version 2.0.0
+	 * @version 2.0.3
 	 * @since   1.0.0
 	 *
 	 * @todo    (desc) `tips`: `( '' != ( $slug = get_post_field( 'post_name', get_post() ) ) ? '[alg_wc_info_block slug="' . $slug . '"]' : '' )`
@@ -185,6 +206,32 @@ class Alg_WC_Info_Blocks_Meta_Boxes {
 						'options'  => $this->get_taxonomy_options(
 							'product_tag',
 							get_post_meta( get_the_ID(), '_' . 'hidden_product_tag_ids', true )
+						),
+					),
+					array(
+						'title'    => __( 'Visible (required) user roles', 'info-blocks-for-woocommerce' ),
+						'desc_tip' => __( 'List of user roles to show this info block on.', 'info-blocks-for-woocommerce' ),
+						'id'       => 'required_user_roles',
+						'type'     => 'select',
+						'multiple' => true,
+						'class'    => 'chosen_select',
+						'css'      => 'width:100%;',
+						'default'  => array(),
+						'options'  => $this->get_user_role_options(
+							get_post_meta( get_the_ID(), '_' . 'required_user_roles', true )
+						),
+					),
+					array(
+						'title'    => __( 'Invisible (hidden) user roles', 'info-blocks-for-woocommerce' ),
+						'desc_tip' => __( 'List of user roles to hide this info block on.', 'info-blocks-for-woocommerce' ),
+						'id'       => 'hidden_user_roles',
+						'type'     => 'select',
+						'multiple' => true,
+						'class'    => 'chosen_select',
+						'css'      => 'width:100%;',
+						'default'  => array(),
+						'options'  => $this->get_user_role_options(
+							get_post_meta( get_the_ID(), '_' . 'hidden_user_roles', true )
 						),
 					),
 				),

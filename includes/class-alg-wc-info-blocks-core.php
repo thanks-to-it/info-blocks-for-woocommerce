@@ -2,7 +2,7 @@
 /**
  * Add Custom Messages Anywhere in WooCommerce - Core Class
  *
- * @version 2.0.2
+ * @version 2.0.3
  * @since   1.0.0
  *
  * @author  Algoritmika Ltd
@@ -29,7 +29,6 @@ class Alg_WC_Info_Blocks_Core {
 	 * @since   1.0.0
 	 *
 	 * @todo    (v1.0.0) test with WPML
-	 * @todo    (feature) user role visibility
 	 * @todo    (feature) country (by IP) visibility?
 	 */
 	function __construct() {
@@ -154,7 +153,7 @@ class Alg_WC_Info_Blocks_Core {
 	/**
 	 * is_block_visible.
 	 *
-	 * @version 2.0.0
+	 * @version 2.0.3
 	 * @since   1.1.0
 	 */
 	function is_block_visible( $block_data ) {
@@ -196,8 +195,37 @@ class Alg_WC_Info_Blocks_Core {
 			return false;
 		}
 
+		// User roles
+		if (
+			(
+				! empty( $block_data['required_user_roles'] ) &&
+				! $this->user_has_role( $block_data['required_user_roles'] )
+			) ||
+			(
+				! empty( $block_data['hidden_user_roles'] ) &&
+				$this->user_has_role( $block_data['hidden_user_roles'] )
+			)
+		) {
+			return false;
+		}
+
 		// It's visible...
 		return true;
+	}
+
+	/**
+	 * user_has_role.
+	 *
+	 * @version 2.0.3
+	 * @since   2.0.3
+	 */
+	function user_has_role( $roles ) {
+		$user       = wp_get_current_user();
+		$user_roles = ( $user->ID ? $user->roles : array( 'alg_wc_ib_guest' ) );
+		return (bool) array_intersect(
+			$roles,
+			$user_roles
+		);
 	}
 
 	/**
@@ -229,7 +257,7 @@ class Alg_WC_Info_Blocks_Core {
 	/**
 	 * get_info_block_data.
 	 *
-	 * @version 2.0.0
+	 * @version 2.0.3
 	 * @since   1.4.0
 	 */
 	function get_info_block_data( $block_id ) {
@@ -241,6 +269,8 @@ class Alg_WC_Info_Blocks_Core {
 			'hidden_product_cat_ids'   => get_post_meta( $block_id, '_' . 'hidden_product_cat_ids', true ),
 			'required_product_tag_ids' => get_post_meta( $block_id, '_' . 'required_product_tag_ids', true ),
 			'hidden_product_tag_ids'   => get_post_meta( $block_id, '_' . 'hidden_product_tag_ids', true ),
+			'required_user_roles'      => get_post_meta( $block_id, '_' . 'required_user_roles', true ),
+			'hidden_user_roles'        => get_post_meta( $block_id, '_' . 'hidden_user_roles', true ),
 		);
 	}
 

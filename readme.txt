@@ -2,8 +2,8 @@
 Contributors: algoritmika, thankstoit, anbinder, karzin
 Tags: woocommerce, info, info block, woo commerce
 Requires at least: 4.4
-Tested up to: 6.8
-Stable tag: 2.0.2
+Tested up to: 7.1
+Stable tag: 2.0.3
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -188,7 +188,12 @@ Add static text (e.g.: "Only today: ") before the price for all products.
 
 ### ℹ Visibility ###
 
-* You can set **visibility** options for each block: visible/invisible products/categories/tags.
+You can set **visibility** options for each block:
+
+* Visible/invisible **products**
+* Visible/invisible **product categories**
+* Visible/invisible **product tags**
+* Visible/invisible **user roles**
 
 ### ℹ Shortcodes ###
 
@@ -226,6 +231,11 @@ Yes, `alg_wc_info_blocks_positions` and `alg_wc_info_blocks_options`.
 2. Info block example - Frontend
 
 == Changelog ==
+
+= 2.0.3 - 08/09/2026 =
+* Dev - Visibility - "Required/hidden user roles" options added.
+* WC tested up to: 11.1.
+* Tested up to: 7.1.
 
 = 2.0.2 - 26/05/2025 =
 * Dev - Display raw info block content.
