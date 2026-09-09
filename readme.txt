@@ -194,6 +194,7 @@ You can set **visibility** options for each block:
 * Visible/invisible **product categories**
 * Visible/invisible **product tags**
 * Visible/invisible **user roles**
+* Min/max **cart amounts**
 
 ### ℹ Shortcodes ###
 
