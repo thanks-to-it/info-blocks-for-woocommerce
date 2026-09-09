@@ -2,7 +2,7 @@
 /**
  * Add Custom Messages Anywhere in WooCommerce - Meta Boxes Class
  *
- * @version 2.0.3
+ * @version 2.0.4
  * @since   1.0.0
  *
  * @author  Algoritmika Ltd
@@ -101,7 +101,7 @@ class Alg_WC_Info_Blocks_Meta_Boxes {
 	/**
 	 * get_options.
 	 *
-	 * @version 2.0.3
+	 * @version 2.0.4
 	 * @since   1.0.0
 	 *
 	 * @todo    (desc) `tips`: `( '' != ( $slug = get_post_field( 'post_name', get_post() ) ) ? '[alg_wc_info_block slug="' . $slug . '"]' : '' )`
@@ -233,6 +233,24 @@ class Alg_WC_Info_Blocks_Meta_Boxes {
 						'options'  => $this->get_user_role_options(
 							get_post_meta( get_the_ID(), '_' . 'hidden_user_roles', true )
 						),
+					),
+					array(
+						'title'             => __( 'Min cart amount', 'info-blocks-for-woocommerce' ),
+						'desc_tip'          => __( 'Min cart subtotal to show this info block.', 'info-blocks-for-woocommerce' ),
+						'id'                => 'min_cart_amount',
+						'type'              => 'number',
+						'custom_attributes' => 'step="0.000001"',
+						'css'               => 'width:100%;',
+						'default'           => '',
+					),
+					array(
+						'title'             => __( 'Max cart amount', 'info-blocks-for-woocommerce' ),
+						'desc_tip'          => __( 'Max cart subtotal to show this info block.', 'info-blocks-for-woocommerce' ),
+						'id'                => 'max_cart_amount',
+						'type'              => 'number',
+						'custom_attributes' => 'step="0.000001"',
+						'css'               => 'width:100%;',
+						'default'           => '',
 					),
 				),
 			),

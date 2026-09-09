@@ -3,7 +3,7 @@ Contributors: algoritmika, thankstoit, anbinder, karzin
 Tags: woocommerce, info, info block, woo commerce
 Requires at least: 4.4
 Tested up to: 7.1
-Stable tag: 2.0.3
+Stable tag: 2.0.4
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -231,6 +231,9 @@ Yes, `alg_wc_info_blocks_positions` and `alg_wc_info_blocks_options`.
 2. Info block example - Frontend
 
 == Changelog ==
+
+= 2.0.4 - 09/09/2026 =
+* Dev - Visibility - "Min/max cart amount" options added.
 
 = 2.0.3 - 08/09/2026 =
 * Dev - Visibility - "Required/hidden user roles" options added.

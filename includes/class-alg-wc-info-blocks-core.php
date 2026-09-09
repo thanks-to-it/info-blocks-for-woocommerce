@@ -2,7 +2,7 @@
 /**
  * Add Custom Messages Anywhere in WooCommerce - Core Class
  *
- * @version 2.0.3
+ * @version 2.0.4
  * @since   1.0.0
  *
  * @author  Algoritmika Ltd
@@ -153,7 +153,7 @@ class Alg_WC_Info_Blocks_Core {
 	/**
 	 * is_block_visible.
 	 *
-	 * @version 2.0.3
+	 * @version 2.0.4
 	 * @since   1.1.0
 	 */
 	function is_block_visible( $block_data ) {
@@ -209,8 +209,35 @@ class Alg_WC_Info_Blocks_Core {
 			return false;
 		}
 
+		// Cart amount
+		if (
+			(
+				'' !== $block_data['min_cart_amount'] &&
+				$this->get_cart_amount() < (float) $block_data['min_cart_amount']
+			) ||
+			(
+				'' !== $block_data['max_cart_amount'] &&
+				$this->get_cart_amount() > (float) $block_data['max_cart_amount']
+			)
+		) {
+			return false;
+		}
+
 		// It's visible...
 		return true;
+	}
+
+	/**
+	 * get_cart_amount.
+	 *
+	 * @version 2.0.4
+	 * @since   2.0.4
+	 */
+	function get_cart_amount() {
+		if ( empty( WC()->cart ) ) {
+			return 0.0;
+		}
+		return (float) WC()->cart->get_subtotal();
 	}
 
 	/**
@@ -257,7 +284,7 @@ class Alg_WC_Info_Blocks_Core {
 	/**
 	 * get_info_block_data.
 	 *
-	 * @version 2.0.3
+	 * @version 2.0.4
 	 * @since   1.4.0
 	 */
 	function get_info_block_data( $block_id ) {
@@ -271,6 +298,8 @@ class Alg_WC_Info_Blocks_Core {
 			'hidden_product_tag_ids'   => get_post_meta( $block_id, '_' . 'hidden_product_tag_ids', true ),
 			'required_user_roles'      => get_post_meta( $block_id, '_' . 'required_user_roles', true ),
 			'hidden_user_roles'        => get_post_meta( $block_id, '_' . 'hidden_user_roles', true ),
+			'min_cart_amount'          => get_post_meta( $block_id, '_' . 'min_cart_amount', true ),
+			'max_cart_amount'          => get_post_meta( $block_id, '_' . 'max_cart_amount', true ),
 		);
 	}
 
