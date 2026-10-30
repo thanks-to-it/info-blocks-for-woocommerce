@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v3.0.
 msgid ""
 msgstr ""
-"Project-Id-Version: Add Custom Messages Anywhere in WooCommerce 2.0.4\n"
+"Project-Id-Version: Add Custom Messages Anywhere in WooCommerce 2.1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/info-blocks-for-woocommerce\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-09-09T17:33:27+00:00\n"
+"POT-Creation-Date: 2026-10-30T20:51:08+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: info-blocks-for-woocommerce\n"
@@ -40,783 +40,783 @@ msgid "https://profiles.wordpress.org/algoritmika/"
 msgstr ""
 
 #. Translators: %s: Block position.
-#: includes/class-alg-wc-info-blocks-core.php:134
+#: includes/class-alg-wc-info-blocks-core.php:158
 msgid "Position: %s"
 msgstr ""
 
 #. Translators: %s: Block position priority.
-#: includes/class-alg-wc-info-blocks-core.php:139
+#: includes/class-alg-wc-info-blocks-core.php:163
 msgid "Priority: %s"
 msgstr ""
 
 #. Translators: %s: Block ID.
-#: includes/class-alg-wc-info-blocks-core.php:144
+#: includes/class-alg-wc-info-blocks-core.php:168
 msgid "Info block ID: %s"
 msgstr ""
 
-#: includes/class-alg-wc-info-blocks-core.php:350
-#: includes/class-alg-wc-info-blocks-core.php:351
+#: includes/class-alg-wc-info-blocks-core.php:388
+#: includes/class-alg-wc-info-blocks-core.php:389
 msgid "Info Blocks"
 msgstr ""
 
-#: includes/class-alg-wc-info-blocks-core.php:372
+#: includes/class-alg-wc-info-blocks-core.php:411
 msgctxt "post type general name"
 msgid "Info Blocks"
 msgstr ""
 
-#: includes/class-alg-wc-info-blocks-core.php:373
+#: includes/class-alg-wc-info-blocks-core.php:412
 msgctxt "post type singular name"
 msgid "Info Block"
 msgstr ""
 
-#: includes/class-alg-wc-info-blocks-core.php:374
+#: includes/class-alg-wc-info-blocks-core.php:413
 msgctxt "admin menu"
 msgid "Info Blocks"
 msgstr ""
 
-#: includes/class-alg-wc-info-blocks-core.php:375
+#: includes/class-alg-wc-info-blocks-core.php:414
 msgctxt "add new on admin bar"
 msgid "Info Block"
 msgstr ""
 
-#: includes/class-alg-wc-info-blocks-core.php:376
+#: includes/class-alg-wc-info-blocks-core.php:415
 msgctxt "info block"
 msgid "Add New"
 msgstr ""
 
-#: includes/class-alg-wc-info-blocks-core.php:377
+#: includes/class-alg-wc-info-blocks-core.php:416
 msgid "Add New Info Block"
 msgstr ""
 
-#: includes/class-alg-wc-info-blocks-core.php:378
+#: includes/class-alg-wc-info-blocks-core.php:417
 msgid "New Info Block"
 msgstr ""
 
-#: includes/class-alg-wc-info-blocks-core.php:379
+#: includes/class-alg-wc-info-blocks-core.php:418
 msgid "Edit Info Block"
 msgstr ""
 
-#: includes/class-alg-wc-info-blocks-core.php:380
+#: includes/class-alg-wc-info-blocks-core.php:419
 msgid "View Info Block"
 msgstr ""
 
-#: includes/class-alg-wc-info-blocks-core.php:381
+#: includes/class-alg-wc-info-blocks-core.php:420
 msgid "All Info Blocks"
 msgstr ""
 
-#: includes/class-alg-wc-info-blocks-core.php:382
+#: includes/class-alg-wc-info-blocks-core.php:421
 msgid "Search Info Blocks"
 msgstr ""
 
-#: includes/class-alg-wc-info-blocks-core.php:383
+#: includes/class-alg-wc-info-blocks-core.php:422
 msgid "Parent Info Blocks:"
 msgstr ""
 
-#: includes/class-alg-wc-info-blocks-core.php:384
+#: includes/class-alg-wc-info-blocks-core.php:423
 msgid "No info blocks found."
 msgstr ""
 
-#: includes/class-alg-wc-info-blocks-core.php:385
+#: includes/class-alg-wc-info-blocks-core.php:424
 msgid "No info blocks found in Trash."
 msgstr ""
 
-#: includes/class-alg-wc-info-blocks-core.php:387
+#: includes/class-alg-wc-info-blocks-core.php:426
 msgid "WooCommerce custom info block"
 msgstr ""
 
-#: includes/class-alg-wc-info-blocks.php:176
+#: includes/class-alg-wc-info-blocks.php:172
 msgid "Info blocks"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:14
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:18
 msgid "General"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:15
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:19
 msgid "Before product price"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:16
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:20
 msgid "After product price"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:17
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:21
 msgid "Instead of product price"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:18
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:22
 msgid "On empty product price"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:20
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:17
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:24
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:19
 msgid "Single product"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:21
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:25
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:25
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:27
 msgid "Before single product"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:22
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:38
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:26
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:40
 msgid "Before single product summary"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:23
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:55
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:27
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:57
 msgid "Inside single product summary"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:24
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:92
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:28
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:94
 msgid "After single product summary"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:25
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:113
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:29
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:115
 msgid "After single product"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:26
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:117
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:30
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:119
 msgid "Before add to cart form"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:27
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:121
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:31
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:123
 msgid "Before add to cart button"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:28
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:125
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:32
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:127
 msgid "After add to cart button"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:29
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:129
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:33
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:131
 msgid "After add to cart form"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:30
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:133
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:34
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:135
 msgid "Product meta start"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:31
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:137
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:35
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:139
 msgid "Product meta end"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:33
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:37
 msgid "Single product tabs"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:34
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:38
 msgid "Description: Heading start"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:35
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:39
 msgid "Description: Heading end"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:36
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:40
 msgid "Description: Instead of heading"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:37
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:41
 msgid "Description: Content start"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:38
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:42
 msgid "Description: Content end"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:39
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:43
 msgid "Description: Instead of content"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:40
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:44
 msgid "Additional information: Heading start"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:41
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:45
 msgid "Additional information: Heading end"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:42
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:46
 msgid "Additional information: Instead of heading"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:43
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:47
 msgid "Additional information: Content end"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:45
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:142
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:49
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:144
 msgid "Product archives"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:46
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:150
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:50
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:152
 msgid "Before product"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:47
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:163
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:51
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:165
 msgid "Before product title"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:48
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:180
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:52
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:182
 msgid "Inside product title"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:49
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:193
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:53
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:195
 msgid "After product title"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:50
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:210
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:54
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:212
 msgid "After product"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:52
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:228
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:56
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:230
 msgid "Cart"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:53
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:236
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:57
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:238
 msgid "Before cart"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:54
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:249
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:58
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:251
 msgid "Before cart table"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:55
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:253
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:59
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:255
 msgid "Before cart contents"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:56
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:257
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:60
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:259
 msgid "Cart contents"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:57
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:261
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:61
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:263
 msgid "Cart coupon"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:58
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:265
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:62
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:267
 msgid "Cart actions"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:59
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:269
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:63
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:271
 msgid "After cart contents"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:60
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:273
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:64
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:275
 msgid "After cart table"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:61
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:277
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:65
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:279
 msgid "Cart collaterals"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:62
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:294
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:66
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:296
 msgid "After cart"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:63
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:298
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:67
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:300
 msgid "Before cart totals"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:64
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:302
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:68
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:304
 msgid "Cart totals: Before shipping"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:65
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:306
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:69
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:308
 msgid "Cart totals: After shipping"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:66
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:310
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:70
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:312
 msgid "Cart totals: Before order total"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:67
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:314
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:71
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:316
 msgid "Cart totals: After order total"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:68
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:318
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:72
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:320
 msgid "Proceed to checkout"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:69
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:331
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:73
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:333
 msgid "After cart totals"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:70
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:335
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:74
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:337
 msgid "Before shipping calculator"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:71
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:339
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:75
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:341
 msgid "After shipping calculator"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:72
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:343
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:76
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:345
 msgid "If cart is empty"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:74
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:361
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:78
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:363
 msgid "Mini cart"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:75
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:369
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:79
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:371
 msgid "Before mini cart"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:76
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:373
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:80
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:375
 msgid "Before buttons"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:77
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:377
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:81
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:379
 msgid "After mini cart"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:79
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:382
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:83
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:384
 msgid "Checkout"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:80
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:390
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:84
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:392
 msgid "Before checkout form"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:81
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:411
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:85
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:413
 msgid "Before customer details"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:82
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:415
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:86
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:417
 msgid "Billing"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:83
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:419
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:87
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:421
 msgid "Shipping"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:84
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:423
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:88
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:425
 msgid "After customer details"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:85
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:427
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:89
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:429
 msgid "Before order review"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:86
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:431
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:436
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:90
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:433
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:438
 msgid "Order review"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:87
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:448
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:91
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:450
 msgid "After order review"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:88
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:452
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:92
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:454
 msgid "After checkout form"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:89
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:456
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:93
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:458
 msgid "Before checkout shipping form"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:90
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:460
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:94
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:462
 msgid "After checkout shipping form"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:91
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:464
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:95
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:466
 msgid "Before order notes"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:92
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:468
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:96
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:470
 msgid "After order notes"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:93
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:472
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:97
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:474
 msgid "Before checkout billing form"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:94
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:476
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:98
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:478
 msgid "After checkout billing form"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:95
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:480
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:99
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:482
 msgid "Before checkout registration form"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:96
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:484
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:100
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:486
 msgid "After checkout registration form"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:97
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:101
 msgid "Review order: Before cart contents"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:98
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:102
 msgid "Review order: After cart contents"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:99
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:103
 msgid "Review order: Before shipping"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:100
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:104
 msgid "Review order: After shipping"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:101
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:105
 msgid "Review order: Before order total"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:102
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:106
 msgid "Review order: After order total"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:103
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:512
+#: includes/settings/alg-wc-info-blocks-meta-boxes-positions.php:107
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:514
 msgid "Order Received (Thank You) page"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:15
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:17
 msgid "Position priorities"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:16
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:18
 msgid "Below you can see all available info block positions. For each position - existing/known WooCommerce hooks and priorities are listed (this is not a final list, as your theme or other plugins may add their own hooks). So, for example, if you would need to output some info block on \"Inside single product summary\" right after product title, you would need to choose <code>Inside single product summary</code> position and set priority to <code>6</code>."
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:21
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:146
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:232
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:365
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:386
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:525
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:23
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:148
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:234
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:367
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:388
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:550
 msgid "Position"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:22
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:147
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:233
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:366
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:387
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:24
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:149
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:235
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:368
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:389
 msgid "Existing/known WC hooks and priorities"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:30
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:241
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:348
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:403
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:32
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:243
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:350
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:405
 msgid "Output all notices"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:43
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:45
 msgid "Show product sale flash"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:47
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:49
 msgid "Show product images"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:60
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:62
 msgid "Title"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:64
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:198
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:66
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:200
 msgid "Rating"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:68
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:202
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:70
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:204
 msgid "Price"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:72
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:74
 msgid "Excerpt"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:76
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:219
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:78
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:221
 msgid "Add to cart"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:80
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:82
 msgid "Meta"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:84
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:86
 msgid "Sharing"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:97
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:99
 msgid "Output product data tabs"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:101
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:103
 msgid "Upsell display"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:105
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:107
 msgid "Output related products"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:155
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:157
 msgid "Product link open"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:168
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:170
 msgid "Show product loop sale flash"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:172
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:174
 msgid "Product thumbnail"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:185
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:187
 msgid "Product title"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:215
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:217
 msgid "Product link close"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:282
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:284
 msgid "Cross sell display"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:286
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:288
 msgid "Cart totals"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:323
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:325
 msgid "Button proceed to checkout"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:352
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:354
 msgid "WC empty cart message"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:395
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:397
 msgid "Checkout login form"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:399
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:401
 msgid "Checkout coupon form"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:440
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:442
 msgid "Checkout payment"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:488
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:490
 msgid "Review order before cart contents"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:492
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:494
 msgid "Review order after cart contents"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:496
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:498
 msgid "Review order before shipping"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:500
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:502
 msgid "Review order after shipping"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:504
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:506
 msgid "Review order before order total"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:508
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:510
 msgid "Review order after order total"
 msgstr ""
 
-#: includes/settings/alg-wc-info-blocks-position-priorities.php:517
+#: includes/settings/alg-wc-info-blocks-position-priorities.php:519
 msgid "Order details table"
 msgstr ""
 
 #. Translators: %d: Term ID.
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:71
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:91
 msgid "Term #%d"
 msgstr ""
 
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:88
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:112
 msgid "Guest"
 msgstr ""
 
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:117
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:142
 msgid "Position(s)"
 msgstr ""
 
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:118
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:143
 msgid "After selecting the positions, click \"Update\" - you will be able to fine-tune positions with position priorities then."
 msgstr ""
 
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:135
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:160
 msgid "Visibility"
 msgstr ""
 
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:140
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:165
 msgid "Visible (required) post IDs"
 msgstr ""
 
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:141
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:166
 msgid "Comma separated list of post (e.g., product) IDs to show this info block on."
 msgstr ""
 
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:148
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:173
 msgid "Invisible (hidden) post IDs"
 msgstr ""
 
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:149
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:174
 msgid "Comma separated list of post (e.g., product) IDs to hide this info block on."
 msgstr ""
 
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:156
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:181
 msgid "Visible (required) product categories"
 msgstr ""
 
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:157
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:182
 msgid "List of product categories to show this info block on."
 msgstr ""
 
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:170
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:195
 msgid "Invisible (hidden) product categories"
 msgstr ""
 
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:171
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:196
 msgid "List of product categories to hide this info block on."
 msgstr ""
 
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:184
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:209
 msgid "Visible (required) product tags"
 msgstr ""
 
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:185
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:210
 msgid "List of product tags to show this info block on."
 msgstr ""
 
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:198
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:223
 msgid "Invisible (hidden) product tags"
 msgstr ""
 
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:199
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:224
 msgid "List of product tags to hide this info block on."
 msgstr ""
 
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:212
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:237
 msgid "Visible (required) user roles"
 msgstr ""
 
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:213
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:238
 msgid "List of user roles to show this info block on."
 msgstr ""
 
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:225
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:250
 msgid "Invisible (hidden) user roles"
 msgstr ""
 
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:226
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:251
 msgid "List of user roles to hide this info block on."
 msgstr ""
 
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:238
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:263
 msgid "Min cart amount"
 msgstr ""
 
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:239
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:264
 msgid "Min cart subtotal to show this info block."
 msgstr ""
 
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:247
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:272
 msgid "Max cart amount"
 msgstr ""
 
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:248
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:273
 msgid "Max cart subtotal to show this info block."
 msgstr ""
 
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:259
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:284
 msgid "Admin note"
 msgstr ""
 
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:260
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:285
 msgid "Admin note is visible on the current page only."
 msgstr ""
 
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:273
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:298
 msgid "Tips"
 msgstr ""
 
 #. Translators: %s: Shortcode.
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:277
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:302
 msgid "You can also display this block with shortcode: %s"
 msgstr ""
 
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:522
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:547
 msgid "Selected Position(s)"
 msgstr ""
 
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:526
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:551
 msgid "Priority"
 msgstr ""
 
 #. Translators: %s: Hook list.
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:654
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:685
 msgid "Current hooks: %s."
 msgstr ""
 
-#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:682
+#: includes/settings/class-alg-wc-info-blocks-meta-boxes.php:718
 msgid "Invalid nonce."
 msgstr ""

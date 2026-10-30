@@ -5,7 +5,9 @@
  * @version 2.0.0
  * @since   2.0.0
  *
- * @author  Algoritmika Ltd
+ * @author Algoritmika Ltd
+ *
+ * @package Algoritmika\WC_Info_Blocks\Settings
  */
 
 defined( 'ABSPATH' ) || exit;

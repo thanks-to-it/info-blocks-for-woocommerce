@@ -1,9 +1,10 @@
 === Add Custom Messages Anywhere in WooCommerce ===
 Contributors: algoritmika, thankstoit, anbinder, karzin
 Tags: woocommerce, info, info block, woo commerce
-Requires at least: 4.4
+Requires at least: 4.7
 Tested up to: 7.1
-Stable tag: 2.0.4
+Requires PHP: 7.4
+Stable tag: 2.1.0
 License: GNU General Public License v3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -232,6 +233,13 @@ Yes, `alg_wc_info_blocks_positions` and `alg_wc_info_blocks_options`.
 2. Info block example - Frontend
 
 == Changelog ==
+
+= 2.1.0 - 30/10/2026 =
+* Dev - `[alg_wc_info_block]` shortcode - Output (optionally) escaped.
+* Dev - Coding standards improved.
+* WC tested up to: 11.2.
+* Requires at least: 4.7.
+* Requires PHP: 7.4.
 
 = 2.0.4 - 09/09/2026 =
 * Dev - Visibility - "Min/max cart amount" options added.
